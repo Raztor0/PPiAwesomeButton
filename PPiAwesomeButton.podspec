@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   PPiAwesomeButton is a new category for UIButton that implements a new flat design and extra methods to set not only the title, also Icon from FontAwesome font using external library. Moreover you'll be able to setup UIColor background for different UIButton states.
                     DESC
   s.requires_arc = true
-  s.ios.dependency 'FontAwesome+iOS'
+  s.ios.dependency 'FontAwesome'
   s.source_files = 'Control/*.{h,m}'
   s.exclude_files = 'PPiAwesomeButton-Demo'
   s.framework = 'QuartzCore'
